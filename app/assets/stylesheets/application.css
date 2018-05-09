@@ -1,0 +1,63 @@
+.OrderHead {
+    padding-bottom: 20px;
+    margin-top : 20px;
+    font-size:30px;
+    text-align: center;
+    border-bottom:5px solid #ffe111;
+}
+
+.textline input{
+        border-top: 0px ;
+        border-left:0px ;
+        border-right:0px ;
+        border-bottom : 1.5px solid #cccc;
+}
+
+.textline textarea{ 
+        border-top: 0px ;
+        border-left:0px ;
+        border-right:0px ;
+        border-bottom : 1.5px solid #cccc;
+}
+
+.contents{
+    margin-top:30px;
+    text-align: center;
+}
+
+#button1{
+    border: none;
+    color: white;
+    background-color: #eeee;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+#boximg{
+    margin-right:15%;
+    float:right;
+    width:20%;
+}
+
+.border1{
+    width:500px;
+    text-align:left;
+    border: 1px solid #ffe111;
+    margin: auto;
+    padding:30px 30px 30px 30px;
+}
+
+.tab{
+    margin:auto;
+    width:80%;
+}
+
+.tab td{
+    border-bottom : 1px solid #cccc;
+}

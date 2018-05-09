@@ -1,0 +1,21 @@
+<h1 class="OrderHead">주문 내용</h1>
+
+
+<table class="tab"> 
+  <tr>
+    <th>주문자 </th>
+    <th>주문내용</th>
+  </tr>
+
+  <% @articles.each do |article| %>
+    <tr>
+      <td><%= article.name %></td>
+      <td><%= article.content %></td>
+      <td><%= " " %><%= link_to '자세히보기', article_path(article) %></td>
+    </tr>
+  <% end %>
+</table>
+<div class="tab">
+  <%= link_to '주문하기', new_article_path %>
+</div>
+<img id="boximg" src="http://paulistamoving.com/wp-content/uploads/2017/05/paulista-moving-6small-boxes.png">

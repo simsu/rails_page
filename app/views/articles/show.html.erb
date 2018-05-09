@@ -1,0 +1,22 @@
+<div class="contents">
+<h2> 주문이 완료되었습니다 !</h2>
+<br><br>
+<p class="border1">
+  <strong>주문자: </strong>
+  <%= @article.name %>
+</p>
+<br><br>
+<p class="border1">
+  <strong>주문내용: </strong>
+  <%= @article.content %>
+</p>
+<br>
+<p id="button1">
+<%=link_to "삭제", article_path(@article), method: :delete %>
+&nbsp
+<%=link_to "수정", edit_article_path(@article) %>
+&nbsp
+<%= link_to "주문 목록", articles_path %>
+</p>
+</div>
+<img id="boximg" src="http://paulistamoving.com/wp-content/uploads/2017/05/paulista-moving-6small-boxes.png">

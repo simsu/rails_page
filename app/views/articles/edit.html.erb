@@ -1,0 +1,22 @@
+<h1 class="OrderHead">주문서 수정</h1>
+
+<div class="contents textline">
+ <%= form_for :article, url: article_path(@article), method: :patch do |f| %>
+
+  <p>
+    <%= f.label :name, '주문자 : ' %>
+    <%= f.text_field :name %>
+  </p>
+
+  <p>
+    <%= f.label :content, '주문내용 : ' %>
+    <%= f.text_area :content %>
+  </p>
+<br>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
+
+</div>
+<img id="boximg" src="http://paulistamoving.com/wp-content/uploads/2017/05/paulista-moving-6small-boxes.png">
